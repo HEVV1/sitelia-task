@@ -1,10 +1,10 @@
 <?php
 class DBConnection
 {
-  private $servername;
-  private $username;
-  private $password;
-  private $dbanme;
+  private string $servername;
+  private string $username;
+  private string $password;
+  private string $dbanme;
 
   protected function connect()
   {
